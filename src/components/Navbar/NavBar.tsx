@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { FaBars, FaTimes, FaReact } from "react-icons/fa";
 import "./NavBar.scss";
+import { GrWorkshop } from "react-icons/gr";
 
 interface NavLink {
   Text: string;
@@ -24,7 +25,7 @@ function Navbar({ GoToNavLink }: Props) {
   return (
     <section className="NavBar">
       <header>
-        <h3><FaReact /></h3>
+        <h3><GrWorkshop /></h3>
         <nav ref={navRef}>
             {GoToNavLink.map((NavLink, index) =>(
                 <a key={index} href={NavLink.href}>{NavLink.Text}</a>
