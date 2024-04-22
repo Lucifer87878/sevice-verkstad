@@ -1,0 +1,164 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+a,
+label {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.site {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;
+
+  .share {
+    position: flex;
+    margin-top: 160vh;
+    margin-left: 140vh;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 360px;
+    height: auto;
+
+    input {
+      display: none;
+    }
+
+    label {
+      position: absolute;
+      font-size: 1.5em;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(
+        45deg,
+        $--gradient-start-color,
+        $--gradient-end-color
+      );
+      box-shadow: $--gradient-start-color 0 15px 18px -8px;
+      color: $--icon-color;
+      border-radius: 50%;
+      cursor: pointer;
+      z-index: 10;
+      top: 13px;
+      left: 50%;
+      margin-left: -30px;
+      transition: opacity 0.3s, transform 0.3s, box-shadow 0.2s;
+      transition-timing-function: cubic-bezier(0.63, -0.55, 0.38, 1.7);
+    }
+
+    input:checked ~ label {
+      opacity: 0;
+      transform: scale(0.8);
+      box-shadow: 0 0 0 30px $--custom-black-color;
+      transition: opacity 0.2s 1s, transform 1s, box-shadow 1s;
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px 25px;
+      margin: auto;
+      border-radius: 40px;
+      background-color: $--translucent-White;
+      width: 100px;
+      opacity: 0;
+      transition: width 0.3s, opacity 0.2s;
+    }
+
+    input:checked ~ ul {
+      width: 360px;
+      opacity: 1;
+      transition: width 0.3s 1s, opacity 0.2s 1s;
+    }
+
+    ul li a {
+      font-size: 1.25em;
+      width: 46px;
+      height: 46px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      color: $--icon-color;
+      transition: transform 0.3s;
+    }
+
+    ul li:nth-child(1),
+    ul li:nth-child(2) {
+      transform: translateX(80px);
+    }
+
+    ul li:nth-child(4),
+    ul li:nth-child(5) {
+      transform: translateX(-80px);
+    }
+
+    ul li {
+      transition: transform 0.3s 1s cubic-bezier(0.63, -0.55, 0.38, 1.7);
+    }
+
+    input:checked ~ ul li {
+      transform: translateX(0);
+    }
+
+    ul li.twitter a {
+      background-color: $--twitter-color;
+      box-shadow: $--twitter-color 0 15px 18px -8px;
+    }
+
+    ul li.facebook a {
+      background-color: $--facebook-color;
+      box-shadow: $--facebook-color 0 15px 18px -8px;
+    }
+
+    ul li.close a {
+      background-color: $--close-color;
+      box-shadow: $--close-color 0 15px 18px -8px;
+    }
+
+    ul li.discord a {
+      background-color: $--discord-color;
+      box-shadow: $--discord-color 0 15px 18px -8px;
+    }
+
+    ul li.whatsapp a {
+      background-color: $--whatsapp-color;
+      box-shadow: $--whatsapp-color 0 15px 18px -8px;
+    }
+
+    ul li a:hover {
+      transform: translateY(-10px);
+    }
+
+    ul li a i {
+      transition: transform 0.5s;
+    }
+
+    ul li a:hover i {
+      transform: rotate(360deg);
+    }
+  }
+}

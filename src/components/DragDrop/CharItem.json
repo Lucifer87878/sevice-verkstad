@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "name": "Low Sword",
+      "description": "A common low-level sword with decent attack and defense.",
+      "type": "Weapon",
+      "rarity": "Common",
+      "stats": {
+        "attack": 10,
+        "defense": 5
+      }
+    },
+    {
+      "name": "Low Top",
+      "description": "Common armor providing basic defense.",
+      "type": "Armor",
+      "rarity": "Common",
+      "stats": {
+        "defense": 10
+      }
+    },
+    {
+      "name": "Low Pants",
+      "description": "Common armor pants with decent defense.",
+      "type": "Armor",
+      "rarity": "Common",
+      "stats": {
+        "defense": 8
+      }
+    },
+    {
+      "name": "Low Shoes",
+      "description": "Common armor shoes providing basic defense.",
+      "type": "Armor",
+      "rarity": "Common",
+      "stats": {
+        "defense": 6
+      }
+    },
+    {
+      "name": "Low Gauntlets",
+      "description": "Common armor gauntlets with decent defense.",
+      "type": "Armor",
+      "rarity": "Common",
+      "stats": {
+        "defense": 7
+      }
+    },
+    {
+      "name": "Epic Sword",
+      "description": "An epic sword with high attack and defense.",
+      "type": "Weapon",
+      "rarity": "Epic",
+      "stats": {
+        "attack": 50,
+        "defense": 20
+      }
+    },
+    {
+      "name": "Epic Top",
+      "description": "Epic armor providing high defense.",
+      "type": "Armor",
+      "rarity": "Epic",
+      "stats": {
+        "defense": 40
+      }
+    },
+    {
+      "name": "Epic Pants",
+      "description": "Epic armor pants with high defense.",
+      "type": "Armor",
+      "rarity": "Epic",
+      "stats": {
+        "defense": 35
+      }
+    },
+    {
+      "name": "Epic Shoes",
+      "description": "Epic armor shoes providing high defense.",
+      "type": "Armor",
+      "rarity": "Epic",
+      "stats": {
+        "defense": 30
+      }
+    },
+    {
+      "name": "Epic Gauntlets",
+      "description": "Epic armor gauntlets with high defense.",
+      "type": "Armor",
+      "rarity": "Epic",
+      "stats": {
+        "defense": 32
+      }
+    },
+    {
+      "name": "Legendary Sword",
+      "description": "A legendary sword with extremely high attack and defense.",
+      "type": "Weapon",
+      "rarity": "Legendary",
+      "stats": {
+        "attack": 100,
+        "defense": 50
+      }
+    },
+    {
+      "name": "Legendary Shield",
+      "description": "A legendary shield with unmatched defense capabilities.",
+      "type": "Armor",
+      "rarity": "Legendary",
+      "stats": {
+        "defense": 100
+      }
+    }
+  ]
+}

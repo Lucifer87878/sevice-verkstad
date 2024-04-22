@@ -1,0 +1,39 @@
+@use "../../components/Scss/variables/sass/fontStyle" as *;
+
+.Form-container {
+  background-color: #78bbff;
+  border-radius: 0 0 5px 5px;
+  border-top: none;
+  width: 40%;
+  padding: 5px;
+  justify-content: center;
+  display: flex;
+  input {
+    font-size: larger;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 7px;
+  }
+}
+.Subscribe-button {
+  font-size: larger;
+  width: 100%;
+  color: $button-font-color;
+  background-color: $button-background-color;
+  padding: 7px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  border: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:active {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
+  }
+}
+.clicked {
+  background-color: $button-updated-green;
+}

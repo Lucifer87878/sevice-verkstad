@@ -1,0 +1,21 @@
+@use "../../components/Scss/variables/sass/fontStyle" as *;
+
+.header-container {
+  width: 40%;
+  // border: 2px ridge red;
+  border-radius: 5px 5px 0 0;
+  align-items: center;
+  padding: 5px;
+  border-bottom: none;
+  flex-direction: row;
+  background: #78bbff;
+  h1 {
+    justify-content: center;
+    display: flex;
+    font-family: $font-family-header;
+  }
+  p {
+    font-family: $font-family-paragraph;
+    font-style: $font-family-paragraph;
+  }
+}
