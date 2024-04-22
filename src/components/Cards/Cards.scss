@@ -1,31 +1,54 @@
-@import "../Scss/variables/colors"; 
+@import "../Scss/variables/colors";
+
+.card-container {
+  display: flex;
+  flex-direction: column; /* Placera korten under varandra */
+}
+
 .card {
   border: 1px solid $--mainColor;
   border-radius: 10px;
   box-shadow: 5px 5px 5px $--secenderyColor;
   padding: 20px;
   margin: 10px;
-  text-align: center;
-  max-width: 250px;
-  display: inline-block;
+  max-width: 35rem;
 
-  .cardPic {
-    border-radius: 10px;
-    text-align: center;
-    max-width: 60%;
-    height: auto;
-    border-radius: 50%;
-    margin-bottom: 10px;
+  &-content {
+    display: flex;
+    align-items: center; /* Centrera innehållet vertikalt */
   }
 
-  .card-title {
+  &icon {
+    border-radius: 10px;
+    max-width: 2rem;
+    height: 25%;
+    margin-right: 10px;
+  }
+
+  &-text-content {
+    display: flex;
+    flex-direction: column; /* Lägg till innehållet i en kolumn */
+  }
+
+  &-title {
     font-family: "Oswald";
     margin: 0;
     color: $--textColor;
+    font-size: 1rem;
   }
 
-  .card-text {
+  &-text {
     font-family: "Oswald";
     color: $--textColor;
+    font-size: 0.7rem;
+    margin-top: 5px; /* Lägg till lite utrymme mellan titel och text */
   }
+
+  input[type="checkbox"] {
+    margin-top: 5px; /* Justera avståndet mellan texten och kryssrutan */
+  }
+}
+
+.checked .card {
+  background-color: rgba(70, 231, 70, 0.689); /* Ändra bakgrundsfärgen när kryssrutan är markerad */
 }
