@@ -14,7 +14,12 @@
             },
             {
                 "title": "Bromsar Däck",
-                "description": "Kontroll bromsar. 1.Med dator Vid gränsvärde 55% kontrollera visuellt",
+                "description": "",
+                "isChecked": false
+            },
+            {
+                "title": "Kontroll bromsar. 1.Med dator Vid gränsvärde 55% kontrollera visuellt",
+                "description": "",
                 "isChecked": false
             },
             {
@@ -53,7 +58,7 @@
                 "isChecked": false
             },
             {
-                "title": "Kontroll Torkfilter AC Årskontroll utförd den……",
+                "title": "Kontroll Torkfilter AC Årskontroll urförd den…….",
                 "description": "",
                 "isChecked": false
             },
@@ -116,23 +121,14 @@
                 "title": "Kontroll, rengöring batterier, justering vätskenivå, kontroll syravikt",
                 "description": "",
                 "isChecked": false
-            },
-            {
-                "title": "",
-                "description": ""
             }
         ]
     },
     {
-        "title": "",
+        "title": "Hjulaxlar, dämpare, styrning",
         "items": [
             {
-                "title": "Hjulaxlar, dämpare,styrning",
-                "description": "",
-                "isChecked": false
-            },
-            {
-                "title": "Kontroll stötdämpare, krängningsh. nivåventiler,luftbälgar inkl.bälghöjd",
+                "title": "Kontroll stötdämpare, krängningsh. nivåventiler, luftbälgar inkl. bälghöjd ",
                 "description": "",
                 "isChecked": false
             },
@@ -153,7 +149,12 @@
             },
             {
                 "title": "Byte olja bakaxel",
-                "description": "Till 12 000 mil: Kontroll bakaxel avseende oljeläckage och kondition\nSmörjning kardan samt kontrollera så den är rörlig i splincen \"delingen\"\nKontrollera hjullager, spinn hjulen",
+                "description": "Till 12 000 mil: Kontroll bakaxel avseende oljeläckage och kondition\nSmörjning kardan samt kontrollera så den är rörlig i splincen \"delingen\"",
+                "isChecked": false
+            },
+            {
+                "title": "Kontrollera hjullager, spinn hjulen",
+                "description": "",
                 "isChecked": false
             },
             {
@@ -170,14 +171,14 @@
                 "title": "Kontroll oljenivå styrning",
                 "description": "",
                 "isChecked": false
-            },
+            }
+        ]
+    },
+    {
+        "title": "Motor, Växellåda",
+        "items": [
             {
-                "title": "Motor, Växellåda",
-                "description": "",
-                "isChecked": false
-            },
-            {
-                "title": "Kontroll oljeläckage motor och drivlina samt avluftning bakaxel",
+                "title": "Kontroll oljeläckage motor och drivlina samt avluftning bakaxel ",
                 "description": "",
                 "isChecked": false
             },
@@ -255,12 +256,12 @@
                 "title": "Motortvätt samt spolning kylare och intercooler",
                 "description": "",
                 "isChecked": false
-            },
-            {
-                "title": "Övrigt",
-                "description": "",
-                "isChecked": false
-            },
+            }
+        ]
+    },
+    {
+        "title": "Övrigt",
+        "items": [
             {
                 "title": "Radera felkoder",
                 "description": "",

@@ -1,0 +1,151 @@
+{
+    "title": "Checklista 4500 MIL Euro 6 Turistbuss",
+    "items": [
+      {
+        "title": "Kontroll felkoder med Stardiagnos",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Bromsar, Däck, Hjul",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll bromsar med dator. Vid gränsvärde över 55% kontr. visuellt",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll däck Visuellt",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontrollera hjullager Spinn hjulen",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll allmänna system",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Provkörning Webasto",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll torkfilter AC. Årskontroll utförd dat………..",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll dörrsystemets skyddsanordning",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Smörjning förarstol",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Smörjning och infettning av lås på utvändiga luckor.",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll belysning",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontrollera vindrutan med avseende på skador, stenskott etc.",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll, rengöring batterier och justering vätskenivå",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Avtappning kondensvatten lufttankar",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Motor Drivlina Styrning",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll remmar, remspännare och remhjul. Frilagda remmar",
+        "description": "Prova att slaka remmen med en ½ tums förlängare. Säkerställ återfjädring.",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll läckage, kylsystem och slangar och rör",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll motor och drivlina avseende täthet. Visuellt",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll, rengöring avluftningshål mellan motor & växellåda GO 250",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll oljenivå motor. Ev. justera",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll kablar startmotor",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll oljenivå till servostyrning",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Smörjning framvagn, tredje axel och kardan. Smörjning med avlastad axel",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Motortvätt samt spolning kylare och intercooler",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Övrigt",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Radera felkoder",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Klisterlapp \"nästa service\" fästes synligt vid förarplatsen",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll plombering alkolåsknapp på instrumentpanel",
+        "description": "",
+        "isChecked": false
+      }
+    ]
+  }
+  

@@ -1,29 +1,28 @@
-[
-  {
-    "title": "Checklista",
+{
+    "title": "Checklista 18000 mil",
     "items": [
       {
-        "title": "Checklista 36000 mil",
+        "title": "Kontroll felkoder",
         "description": "",
         "isChecked": false
       },
       {
-        "title": "Kontroll felkoder",
-        "description": "Checka felkoder med stardiagnos",
-        "isChecked": false
-      },
-      {
         "title": "Underhållsladdning batterier",
-        "description": "Ladda batterierna för underhåll",
+        "description": "Kontrollera och fyll avjonat vatten vid behov.",
         "isChecked": false
       },
       {
-        "title": "Bromsar Däck",
-        "description": "Broms- och däckkontroll",
+        "title": "Bromsar Däck Koppling",
+        "description": "",
         "isChecked": false
       },
       {
-        "title": "Kontroll bromsar. 1.Med dator Vid gränsvärde 55% kontrollera visuellt",
+        "title": "Kontroll bromsar. 1. Med dator gränsvärde 55% och 2. visuellt",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll koppling med Diagnos dator",
         "description": "",
         "isChecked": false
       },
@@ -43,22 +42,27 @@
         "isChecked": false
       },
       {
+        "title": "Byte olja i retarder",
+        "description": "",
+        "isChecked": false
+      },
+      {
         "title": "Underhåll allmänna system",
         "description": "",
         "isChecked": false
       },
       {
-        "title": "Rengöring vattenfilter extravärmare",
+        "title": "Rengöring vattenfilter Webasto",
         "description": "",
         "isChecked": false
       },
       {
-        "title": "Byte bränslefilter extravärmare Provkörning kontroll",
-        "description": "",
+        "title": "Provkörning kontroll Webasto",
+        "description": "Byte av bränslefilter.",
         "isChecked": false
       },
       {
-        "title": "Kontroll torkfilter AC Årskontroll utförd den………",
+        "title": "Kontroll torkfilter AC. Årskontroll utförd dat………..",
         "description": "",
         "isChecked": false
       },
@@ -78,17 +82,22 @@
         "isChecked": false
       },
       {
+        "title": "Provkörning, kontroll handikappramp",
+        "description": "",
+        "isChecked": false
+      },
+      {
         "title": "Smörjning lock till Nato-koppling",
         "description": "",
         "isChecked": false
       },
       {
-        "title": "Rengöring takfilter in och utvändigt eller byte vid behov",
+        "title": "Byte takfilter in och utvändigt",
         "description": "",
         "isChecked": false
       },
       {
-        "title": "Rengöring defrosterfilter eller byte vid behov",
+        "title": "Byte defrosterfilter",
         "description": "",
         "isChecked": false
       },
@@ -98,12 +107,17 @@
         "isChecked": false
       },
       {
-        "title": "Kontroll kondition och tryck av brandsläckningssyst. samt inv. brandsläckare",
+        "title": "Kontroll, rengöring batterier och justering av vätskenivå. Kontroll syravikt",
         "description": "",
         "isChecked": false
       },
       {
-        "title": "Kontroll kylsystem nivå, slangar och frostskydd ……gr.C",
+        "title": "Kontroll av korrosionsskydd underrede och reng. Av utloppsöppningar",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll kondition och tryck av brandsläckningssyst. samt inv. brandsläckare",
         "description": "",
         "isChecked": false
       },
@@ -113,12 +127,17 @@
         "isChecked": false
       },
       {
-        "title": "Byte lufttorkfilter",
+        "title": "Karossen utvändig kontroll",
         "description": "",
         "isChecked": false
       },
       {
-        "title": "Kontroll, rengöring batterier, justering vätskenivå, kontroll syravikt",
+        "title": "Kontrollera vindrutan med avseende på skador, stenskott etc.",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontrollera och dokumentera skador och strips på bilagan 'turistbuss'",
         "description": "",
         "isChecked": false
       },
@@ -138,27 +157,7 @@
         "isChecked": false
       },
       {
-        "title": "Smörjning framaxel  (avlastad axel)",
-        "description": "",
-        "isChecked": false
-      },
-      {
-        "title": "Byte fett i nav framaxel",
-        "description": "",
-        "isChecked": false
-      },
-      {
-        "title": "Kontroll oljenivå på oljesmorda nav",
-        "description": "",
-        "isChecked": false
-      },
-      {
-        "title": "Byte olja bakaxel",
-        "description": "",
-        "isChecked": false
-      },
-      {
-        "title": "Kontroll bakaxel avseende oljeläckage och kondition",
+        "title": "Smörjning framaxel samt ev. boggieaxel (avlastade axlar)",
         "description": "",
         "isChecked": false
       },
@@ -168,12 +167,27 @@
         "isChecked": false
       },
       {
-        "title": "Kontrollera hjullager, spinn hjulen",
+        "title": "Kontrollera hjullager Spinn hjulen",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll oljenivå på oljesmorda nav",
         "description": "",
         "isChecked": false
       },
       {
         "title": "Kontroll oljenivå styrning",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Byte fett i nav framaxel och tredje axel ( utgår om bromsrenovering är gjord)",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Byte olja i bakaxel",
         "description": "",
         "isChecked": false
       },
@@ -188,27 +202,7 @@
         "isChecked": false
       },
       {
-        "title": "Kontr. ventilspel, ev. just.1:a gång efter 12000 mil, därefter varje 24000 mil",
-        "description": "",
-        "isChecked": false
-      },
-      {
         "title": "Kontroll remmar, remspännare och remhjul",
-        "description": "",
-        "isChecked": false
-      },
-      {
-        "title": "Kontroll läckage kylsystem, slangar och rör",
-        "description": "",
-        "isChecked": false
-      },
-      {
-        "title": "Byte olja vinkelväxel Kylfläkt",
-        "description": "",
-        "isChecked": false
-      },
-      {
-        "title": "Kontrollera oljenivån vid hydraulisk fläktdrivning",
         "description": "",
         "isChecked": false
       },
@@ -218,17 +212,12 @@
         "isChecked": false
       },
       {
-        "title": "Kontroll oljenivå extratank",
+        "title": "Rengöring oljeavskiljare kompressor. Kontroll av funktion",
         "description": "",
         "isChecked": false
       },
       {
-        "title": "Byte olja och filter växellåda",
-        "description": "",
-        "isChecked": false
-      },
-      {
-        "title": "Rengöring oljeavskiljare Kompressor Kontroll av funktion",
+        "title": "Byte olja vinkelväxel till Kylfläkt",
         "description": "",
         "isChecked": false
       },
@@ -238,7 +227,7 @@
         "isChecked": false
       },
       {
-        "title": "Byte adbluefilter",
+        "title": "Byte adbluefilter och vid varje 36000 mil påfyllning av tryckbehållare",
         "description": "",
         "isChecked": false
       },
@@ -248,7 +237,7 @@
         "isChecked": false
       },
       {
-        "title": "Byte luftfilter vid behov",
+        "title": "Kontroll luftfilter motor och Kompressorfilter. Vid behov byte",
         "description": "",
         "isChecked": false
       },
@@ -263,15 +252,45 @@
         "isChecked": false
       },
       {
+        "title": "Byte olja och filter växellåda. Aut. Växellåda byte olja och filter varje 12000 mil",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Byte av jordningsband på motor",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll och vid behov inställning av ventilspel",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll kylsystem nivå, slangar och frostskydd ……gr.C",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Övrigt",
+        "description": "",
+        "isChecked": false
+      },
+      {
         "title": "Radera felkoder",
         "description": "",
         "isChecked": false
       },
       {
-        "title": "Klisterlapp \"nästa service\" fästs synligt vid förarplatsen",
+        "title": "Klisterlapp 'nästa service' fästes synligt vid förarplatsen",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll plombering alkolåsknapp på instrumentpanel",
         "description": "",
         "isChecked": false
       }
     ]
   }
-]
+  

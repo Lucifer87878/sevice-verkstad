@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Checklista 1500 MIL Citaro DIESEL Euro 6",
+        "items": [
+            {
+                "title": "Bromsar, Däck, Hjul",
+                "description": "",
+                "isChecked": false
+            },
+            {
+                "title": "Kontroll däck Visuellt",
+                "description": "",
+                "isChecked": false
+            },
+            {
+                "title": "Smörjning framvagn. Smörjning med avlastad axel",
+                "description": "",
+                "isChecked": false
+            },
+            {
+                "title": "Övrigt",
+                "description": "",
+                "isChecked": false
+            },
+            {
+                "title": "Klisterlapp \"nästa service\" fästes synligt vid förarplatsen",
+                "description": "",
+                "isChecked": false
+            },
+            {
+                "title": "Kontroll plombering alkolåsknapp på instrumentpanel",
+                "description": "",
+                "isChecked": false
+            }
+        ]
+    }
+]

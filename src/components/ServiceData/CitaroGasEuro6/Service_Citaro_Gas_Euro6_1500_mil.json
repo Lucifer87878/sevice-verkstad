@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Checklista 1500 MIL Citaro Gas Euro 6, 2017",
+        "items": [
+            {
+                "title": "Kontroll däck Visuellt",
+                "description": "",
+                "isChecked": false
+            },
+            {
+                "title": "Smörjning framvagn och tredje axel om finnes. Smörjning med avlastad axel",
+                "description": "",
+                "isChecked": false
+            },
+            {
+                "title": "Kontroll bromsar. 1.Med dator Vid gränsvärde 55% kontrollera visuellt",
+                "description": "",
+                "isChecked": false
+            },
+            {
+                "title": "Avluftning växellåda bakaxel",
+                "description": "",
+                "isChecked": false
+            },
+            {
+                "title": "Övrigt",
+                "description": "",
+                "isChecked": false
+            },
+            {
+                "title": "Klisterlapp \"nästa service\" fästes synligt vid förarplatsen",
+                "description": "",
+                "isChecked": false
+            },
+            {
+                "title": "Kontroll plombering alkolåsknapp på instrumentpanel",
+                "description": "",
+                "isChecked": false
+            }
+        ]
+    }
+]

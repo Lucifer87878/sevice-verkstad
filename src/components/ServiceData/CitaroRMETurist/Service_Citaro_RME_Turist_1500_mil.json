@@ -1,37 +1,36 @@
-[
-  {
-    "title": "Checklista",
+{
+    "title": "Checklista 1500 MIL Citaro RME. Halvårsvis Turistbussar",
     "items": [
       {
         "title": "Bromsar, Däck, Hjul",
-        "description": "Bromsar, Däck, Hjul",
+        "description": "",
         "isChecked": false
       },
       {
         "title": "Kontroll däck Visuellt",
-        "description": "Kontroll däck Visuellt",
+        "description": "",
         "isChecked": false
       },
       {
-        "title": "Smörjning framvagn",
-        "description": "Smörjning framvagn. Smörjning med avlastad axel",
+        "title": "Smörjning framvagn och tredje axeln. Smörjning med avlastad axel",
+        "description": "",
         "isChecked": false
       },
       {
         "title": "Övrigt",
-        "description": "Övrigt",
+        "description": "",
         "isChecked": false
       },
       {
         "title": "Klisterlapp \"nästa service\" fästes synligt vid förarplatsen",
-        "description": "Klisterlapp \"nästa service\" fästes synligt vid förarplatsen",
+        "description": "",
         "isChecked": false
       },
       {
         "title": "Kontroll plombering alkolåsknapp på instrumentpanel",
-        "description": "Kontroll plombering alkolåsknapp på instrumentpanel",
+        "description": "",
         "isChecked": false
       }
     ]
   }
-]
+  

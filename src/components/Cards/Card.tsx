@@ -12,17 +12,15 @@ interface CardData {
 type JsonKey = keyof typeof jsonData;
 
 const Card: React.FC = () => {
+    const initialSelectedFile = Object.keys(jsonData)[' '] as JsonKey; // Använd den första nyckeln som standardvärde
+
     const [cardsData, setCardsData] = useState<CardData[]>([]);
-    const [selectedFile, setSelectedFile] = useState<JsonKey>(''); // State för det valda JSON-filnamnet
+    const [selectedFile, setSelectedFile] = useState<JsonKey>(initialSelectedFile); // Använd JsonKey istället för en sträng
 
     useEffect(() => {
+        // Uppdatera kortdatan när det valda filnamnet ändras
         if (selectedFile) {
-            // Kontrollera om den valda filen finns i jsonData innan du uppdaterar kortdatan
-            if (jsonData[selectedFile]) {
-                setCardsData(jsonData[selectedFile]);
-            } else {
-                console.error(`Data for file '${selectedFile}' not found.`);
-            }
+            setCardsData(jsonData[selectedFile].flatMap((entry: { title: string; items: CardData[]; }) => entry.items || []));
         }
     }, [selectedFile]);
 
@@ -44,7 +42,7 @@ const Card: React.FC = () => {
         <div className="card-container">
             {/* Dropdown-menyn för att välja JSON-fil */}
             <select value={selectedFile} onChange={(e) => handleSelectFile(e.target.value as JsonKey)}>
-                <option value="">Välj en Service</option>
+                <option value="">Välj en JSON-fil</option>
                 {/* Generera alternativ baserat på nycklarna i jsonData */}
                 {Object.keys(jsonData).map((fileName) => (
                     <option key={fileName} value={fileName}>{fileName}</option>
