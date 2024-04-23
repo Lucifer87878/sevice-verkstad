@@ -1,8 +1,9 @@
+import { useState } from 'react';
 import "../src/components/Scss/main.scss";
 import Navbar from "./components/Navbar/NavBar";
-// import DragAndDrop from "./components/DragDrop/DragAndDrop";
 import Card from "./components/Cards/Card";
-
+import DropDownMenu from "./components/DropdownMenu/DropdownMenu"; // Importera DropDownMenu-komponenten
+import * as jsonData from './components/ServiceData'; // Importera index.ts där JSON-filerna exporteras
 
 //-------------------------------------------NavBar-----------------------------------------------//
 const GoToNavLink = [
@@ -15,25 +16,32 @@ const GoToNavLink = [
 
 //------------------------------------------------------------------------------------------//
 
-//-------------------------------------Social Media Butten's---------------------------------------//
-
-// const socialLinks = [
-//   { className: "twitter", icon: "ri-twitter-line", href: "#" },
-//   { className: "facebook", icon: "ri-facebook-line", href: "#" },
-//   { className: "close", icon: "ri-close-line", href: "#" }, // För att stänga knap menyn
-//   { className: "discord", icon: "ri-discord-line", href: "#" },
-//   { className: "whatsapp", icon: "ri-whatsapp-line", href: "#" },
-// ];
-
-//------------------------------------------------------------------------------------------//
-
 function App() {
+  const [selectedData, setSelectedData] = useState<any[]>([]);
+
+  // Funktion för att hantera när en fil väljs från DropDownMenu
+  const handleSelectFile = (fileName: string) => {
+    // Kontrollera vilken fil som valdes och hämta rätt data från index.ts
+    switch (fileName) {
+      case 'AutosanBuss_1500':
+        setSelectedData(jsonData.AutosanBuss_1500);
+        break;
+      case 'AutosanBuss_3000':
+        setSelectedData(jsonData.AutosanBuss_3000);
+        break;
+      // Fortsätt med andra fall för alla filer
+      default:
+        setSelectedData([]); // Återställ till tom array om inget matchat
+    }
+  };
+
   return (
     <>
       <Navbar GoToNavLink={GoToNavLink} />
-
-      {/* <DragAndDrop /> */}
-      <Card />
+      {/* Lägg till DropDownMenu och skicka handleSelectFile som en prop */}
+      <DropDownMenu onSelectFile={handleSelectFile} />
+      {/* Skicka den valda datan som en prop till Card */}
+      <Card data={selectedData} />
     </>
   );
 }
