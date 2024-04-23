@@ -17,31 +17,11 @@ const GoToNavLink = [
 //------------------------------------------------------------------------------------------//
 
 function App() {
-  const [selectedData, setSelectedData] = useState<any[]>([]);
-
-  // Funktion för att hantera när en fil väljs från DropDownMenu
-  const handleSelectFile = (fileName: string) => {
-    // Kontrollera vilken fil som valdes och hämta rätt data från index.ts
-    switch (fileName) {
-      case 'AutosanBuss_1500':
-        setSelectedData(jsonData.AutosanBuss_1500);
-        break;
-      case 'AutosanBuss_3000':
-        setSelectedData(jsonData.AutosanBuss_3000);
-        break;
-      // Fortsätt med andra fall för alla filer
-      default:
-        setSelectedData([]); // Återställ till tom array om inget matchat
-    }
-  };
 
   return (
     <>
       <Navbar GoToNavLink={GoToNavLink} />
-      {/* Lägg till DropDownMenu och skicka handleSelectFile som en prop */}
-      <DropDownMenu onSelectFile={handleSelectFile} />
-      {/* Skicka den valda datan som en prop till Card */}
-      <Card data={selectedData} />
+      <Card />
     </>
   );
 }
