@@ -1,128 +1,127 @@
 [
   {
-    "Checklista 6000 mil": {
-      "items": [
-        {
-          "title": "Kontroll felkoder",
-          "description": "",
-          "isChecked": false
-        },
-        {
-          "title": "Underhållsladdning batterier",
-          "description": "",
-          "isChecked": false
-        },
-        {
-          "title": "Bromsar Däck",
-          "description": "",
-          "isChecked": false
-        },
-        {
-          "title": "Kontroll bromsar. 1.Med dator Vid gränsvärde 55% kontrollera visuellt",
-          "description": "",
-          "isChecked": false
-        },
-        {
-          "title": "Bromsprov",
-          "description": "",
-          "isChecked": false
-        },
-        {
-          "title": "Kontroll bromsslangar",
-          "description": "",
-          "isChecked": false
-        },
-        {
-          "title": "Kontroll av däck enligt protokoll se nedan",
-          "description": "",
-          "isChecked": false
-        },
-        {
-          "title": "Underhåll allmänna system",
-          "description": "",
-          "isChecked": false
-        },
-        {
-          "title": "Rengöring vattenfilter webasto",
-          "description": "",
-          "isChecked": false
-        },
-        {
-          "title": "Provkörning kontroll Webasto",
-          "description": "",
-          "isChecked": false
-        },
-        {
-          "title": "Kontroll torkfilter AC Årskontroll utförd dat…...",
-          "description": "",
-          "isChecked": false
-        },
-        {
-          "title": "Kontroll dörrsystemets skyddsanordning",
-          "description": "",
-          "isChecked": false
-        },
-        {
-          "title": "Smörjning förarstol",
-          "description": "",
-          "isChecked": false
-        },
-        {
-          "title": "Smörjning och infettning av lås på utvändiga luckor",
-          "description": "",
-          "isChecked": false
-        },
-        {
-          "title": "Kontroll handikappramp Rengöring uppsmörjning",
-          "description": "",
-          "isChecked": false
-        },
-        {
-          "title": "Smörjning lock till Nato-koppling",
-          "description": "",
-          "isChecked": false
-        },
-        {
-          "title": "Rengöring av takfilter in och utvändigt eller byte vid behov.",
-          "description": "",
-          "isChecked": false
-        },
-        {
-          "title": "Rengöring defrosterfilter eller byte vid behov.",
-          "description": "",
-          "isChecked": false
-        },
-        {
-          "title": "Kontroll belysning",
-          "description": "",
-          "isChecked": false
-        },
-        {
-          "title": "Kontroll kondition och tryck av brandsläckningssyst. samt inv. brandsläckare",
-          "description": "",
-          "isChecked": false
-        },
-        {
-          "title": "Kontroll av korrosionsskydd underrede och reng. Av utloppsöppningar",
-          "description": "",
-          "isChecked": false
-        },
-        {
-          "title": "Kontroll kylsystem nivå, slangar och frostskydd ……gr.C",
-          "description": "",
-          "isChecked": false
-        },
-        {
-          "title": "Avtappning kondensvatten lufttankar",
-          "description": "",
-          "isChecked": false
-        },
-        {
-          "title": "Kontroll, rengöring batterier, justering vätskenivå, kontroll syravikt",
-          "description": "",
-          "isChecked": false
-        }
-      ]
-    }
+    "title": "Checklista 6000 MIL Citaro RME",
+    "items": [
+      {
+        "title": "Kontroll felkoder",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Underhållsladdning batterier",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Bromsar Däck",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll bromsar. 1.Med dator Vid gränsvärde 55% kontrollera visuellt",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Bromsprov",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll bromsslangar",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll av däck enligt protokoll se nedan",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Underhåll allmänna system",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Rengöring vattenfilter webasto",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Provkörning kontroll Webasto",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll torkfilter AC Årskontroll utförd dat…...",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll dörrsystemets skyddsanordning",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Smörjning förarstol",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Smörjning och infettning av lås på utvändiga luckor",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll handikappramp Rengöring uppsmörjning",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Smörjning lock till Nato-koppling",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Rengöring av takfilter in och utvändigt eller byte vid behov.",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Rengöring defrosterfilter eller byte vid behov.",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll belysning",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll kondition och tryck av brandsläckningssyst. samt inv. brandsläckare",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll av korrosionsskydd underrede och reng. Av utloppsöppningar",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll kylsystem nivå, slangar och frostskydd ……gr.C",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Avtappning kondensvatten lufttankar",
+        "description": "",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll, rengöring batterier, justering vätskenivå, kontroll syravikt",
+        "description": "",
+        "isChecked": false
+      }
+    ]
   }
 ]

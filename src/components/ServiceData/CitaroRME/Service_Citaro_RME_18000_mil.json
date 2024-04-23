@@ -1,8 +1,8 @@
 [
   {
-    "Checklista 18000 mil": {
-      "items": [
-        {
+    "title": "Checklista 18000 MIL Citaro RME",
+    "items": [
+      {
           "title": "Kontroll felkoder",
           "description": "",
           "isChecked": false
@@ -274,5 +274,5 @@
         }
       ]
     }
-  }
+  
 ]
