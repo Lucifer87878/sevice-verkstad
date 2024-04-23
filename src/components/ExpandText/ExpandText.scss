@@ -1,0 +1,18 @@
+/* ExpandedText.scss */
+.expanded-text-container {
+    position: relative;
+}
+
+textarea {
+    width: 50%;
+    height: auto; /* Anpassa höjden efter behov */
+    resize: both; /* Förhindra att text rutan kan ändras i storlek */
+    margin-left: 9rem;
+    }
+
+.expand-icon {
+    position: relative;
+    top: .2rem; /* Justera vertikalt läge */
+    left:  1rem; /* Justera horisontellt läge */
+    cursor: pointer;
+}
