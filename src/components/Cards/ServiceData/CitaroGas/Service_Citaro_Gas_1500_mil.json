@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Checklista",
+        "items": [
+            {
+                "title": "Bromsar, Däck, Hjul",
+                "description": "Kontroll däck Visuellt",
+                "isChecked": false
+            },
+            {
+                "title": "Smörjning framvagn och tredje axel",
+                "description": "Smörjning framvagn och tredje axel. Smörjning med avlastad axel",
+                "isChecked": false
+            },
+            {
+                "title": "Övrigt",
+                "description": "Klisterlapp \"nästa service\" fästes synligt vid förarplatsen",
+                "isChecked": false
+            },
+            {
+                "title": "Kontroll plombering alkolåsknapp på instrumentpanel",
+                "description": "Kontroll plombering alkolåsknapp på instrumentpanel",
+                "isChecked": false
+            }
+        ]
+    }
+]

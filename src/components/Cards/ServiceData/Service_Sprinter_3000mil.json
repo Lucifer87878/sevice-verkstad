@@ -1,0 +1,147 @@
+[
+  {
+      "title": "Sprintrer Service Checklista  3000 MIL",
+      "items": [
+          {
+              "title": "Kontroll felkoder",
+              "description": "Kontroll felkoder med stardiagnos",
+              "isChecked": false
+          },
+          {
+              "title": "Service",
+              "description": "Återställ serviceintervallindikering",
+              "isChecked": false
+          },
+          {
+              "title": "Bromsar, Däck, Hjul",
+              "description": "Kontroll bromsklossar och -skivor. Justera parkeringsbroms vid behov.",
+              "isChecked": false
+          },
+          {
+              "title": "Service",
+              "description": "Kontroll/ korrigering av bromsslangar, kopplingar, läckage, bromsvätskenivå",
+              "isChecked": false
+          },
+          {
+              "title": "Service",
+              "description": "Kontrollera däcken och justera däcktryck vid behov.",
+              "isChecked": false
+          },
+          {
+              "title": "Service",
+              "description": "Kontrollera hjullager, stötdämpare, hjälpgummifjädrar, kulleder",
+              "isChecked": false
+          },
+          {
+              "title": "Kontroll allmänna system",
+              "description": "Provkörning tillsatsvärmare (Eberspächer)",
+              "isChecked": false
+          },
+          {
+              "title": "Service",
+              "description": "Provkörning AC. Rengöring av filtermatta på förångare.",
+              "isChecked": false
+          },
+          {
+              "title": "Service",
+              "description": "Kontroll dörrsystemets skyddsanordning, säkerhetsbälten (slitage etc.)",
+              "isChecked": false
+          },
+          {
+              "title": "Service",
+              "description": "Underhåll av trappsteg",
+              "isChecked": false
+          },
+          {
+              "title": "Service",
+              "description": "Kontroll belysning ut- och invändigt inkl. instrumentpanel",
+              "isChecked": false
+          },
+          {
+              "title": "Service",
+              "description": "Kontroll, rengöring batterier och justering vätskenivå",
+              "isChecked": false
+          },
+          {
+              "title": "Service",
+              "description": "Kontroll vindrutetorkare och spolarsystem. Justering vätskenivå",
+              "isChecked": false
+          },
+          {
+              "title": "Service",
+              "description": "Avtappning kondensvatten lufttankar",
+              "isChecked": false
+          },
+          {
+              "title": "Motor Drivlina Styrning",
+              "description": "Byte motorolja och oljefilter",
+              "isChecked": false
+          },
+          {
+              "title": "Service",
+              "description": "Kontroll remmar och remspännare",
+              "isChecked": false
+          },
+          {
+              "title": "Service",
+              "description": "Kontroll nivåer, läckage, kylsystem, fryspunkt och slangar och rör",
+              "isChecked": false
+          },
+          {
+              "title": "Service",
+              "description": "Kontroll motor och drivlina avseende täthet. Visuellt",
+              "isChecked": false
+          },
+          {
+              "title": "Service",
+              "description": "Kontroll slitage styrning. Kontroll/ justering oljenivå till servostyrning.",
+              "isChecked": false
+          },
+          {
+              "title": "Övrigt",
+              "description": "Efter första 3000 mil, efterdragning av fjäderbygel/ u-bultar till hjulupphängning",
+              "isChecked": false
+          },
+          {
+              "title": "Tilläggspunkter enligt serviceschema ovan Service 6000, 12000, 18000, 24 000, 30 0000 osv. mil",
+              "description": "Byte bränslefilter",
+              "isChecked": false
+          },
+          {
+              "title": "Service",
+              "description": "Byte luftfilter",
+              "isChecked": false
+          },
+          {
+              "title": "Service",
+              "description": "Byte kupéfilter (2 st)",
+              "isChecked": false
+          },
+          {
+              "title": "Service",
+              "description": "Byte bromsvätska",
+              "isChecked": false
+          },
+          {
+              "title": "Service 15 000, 18000, 21 000, 24 000, 27000, 30 0000 osv. mil",
+              "description": "Dieselpartikelfilter mättnad kontrollerad",
+              "isChecked": false
+          },
+          {
+              "title": "Service 30 000, 60 000 osv. mil",
+              "description": "Byte olja växellåda (manuell 32 000 mil) (automat 12 000 mil + oljefilter)",
+              "isChecked": false
+          },
+          {
+              "title": "Service",
+              "description": "Byte olja bakaxel (efter 32 000 mil)",
+              "isChecked": false
+          },
+          {
+              "title": "Service",
+              "description": "Bra Jobbat du skall du ta en Kaffe..!!!",
+              "isChecked": false
+          }
+      ]
+  }
+]

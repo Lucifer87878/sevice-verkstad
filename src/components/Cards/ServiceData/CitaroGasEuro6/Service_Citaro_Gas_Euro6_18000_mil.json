@@ -1,0 +1,242 @@
+[
+    {
+        "title": "Checklista 3000 mil",
+        "items": [
+            {
+                "title": "Avläsning felkoder",
+                "description": "Avläsning felkoder",
+                "isChecked": false
+            },
+            {
+                "title": "Underhållsladdning batterier",
+                "description": "Underhållsladdning batterier",
+                "isChecked": false
+            },
+            {
+                "title": "Bromsar Däck",
+                "description": "Kontroll bromsar. 1.Med dator Vid gränsvärde 55% kontrollera visuellt",
+                "isChecked": false
+            },
+            {
+                "title": "Kontroll av däck",
+                "description": "Kontroll av däck enligt protokoll se nedan",
+                "isChecked": false
+            },
+            {
+                "title": "Underhåll allmänna system",
+                "description": "Provkörning kontroll Webasto",
+                "isChecked": false
+            },
+            {
+                "title": "Kontroll dörrsystemets skyddsanordning",
+                "description": "Kontroll dörrsystemets skyddsanordning",
+                "isChecked": false
+            },
+            {
+                "title": "Smörjning förarstol",
+                "description": "Smörjning förarstol",
+                "isChecked": false
+            },
+            {
+                "title": "Smörjning och infettning av lås på utvändiga luckor",
+                "description": "Smörjning och infettning av lås på utvändiga luckor",
+                "isChecked": false
+            },
+            {
+                "title": "Kontroll handikappramp",
+                "description": "Kontroll handikappramp Rengöring uppsmörjning",
+                "isChecked": false
+            },
+            {
+                "title": "Byte luftfilter för kupén",
+                "description": "Byte luftfilter för kupén",
+                "isChecked": false
+            },
+            {
+                "title": "Byte luftfilter för förarplatsens värme",
+                "description": "Byte luftfilter för förarplatsens värme",
+                "isChecked": false
+            },
+            {
+                "title": "Rengöring värmeväxlare på sidovägg, kontroll fläktens funktion",
+                "description": "Rengöring värmeväxlare på sidovägg, kontroll fläktens funktion",
+                "isChecked": false
+            },
+            {
+                "title": "Kontroll belysning",
+                "description": "Kontroll belysning",
+                "isChecked": false
+            },
+            {
+                "title": "Kontroll kondition och tryck av brandsläckningssyst.",
+                "description": "Kontroll kondition och tryck av brandsläckningssyst. samt inv. brandsläckare",
+                "isChecked": false
+            },
+            {
+                "title": "Avtappning kondensvatten lufttankar",
+                "description": "Avtappning kondensvatten lufttankar",
+                "isChecked": false
+            },
+            {
+                "title": "Kontroll, rengöring batterier",
+                "description": "Kontroll, rengöring batterier, justering vätskenivå, kontroll syravikt",
+                "isChecked": false
+            }
+        ]
+    },
+    {
+        "title": "Checklista 3000 mil",
+        "items": [
+            {
+                "title": "Hjulaxlar, dämpare, styrning",
+                "description": "Kontroll styrstag, parallellstag, mellanarmar och kardanknutar till styrningen",
+                "isChecked": false
+            },
+            {
+                "title": "Smörjning framaxel",
+                "description": "Smörjning framaxel samt ev. boggieaxel (avlastade axlar)",
+                "isChecked": false
+            },
+            {
+                "title": "Kontroll hjullager",
+                "description": "Kontroll hjullager Spinn hjulen",
+                "isChecked": false
+            },
+            {
+                "title": "Kontroll oljenivå styrning",
+                "description": "Kontroll oljenivå styrning",
+                "isChecked": false
+            },
+            {
+                "title": "Motor, Växellåda",
+                "description": "Kontroll oljeläckage motor och drivlina samt avluftning bakaxel",
+                "isChecked": false
+            },
+            {
+                "title": "Kontroll remmar",
+                "description": "Kontroll remmar, remspännare och remhjul",
+                "isChecked": false
+            },
+            {
+                "title": "Byte olja och filter motor",
+                "description": "Byte olja och filter motor",
+                "isChecked": false
+            },
+            {
+                "title": "Kontroll oljenivå extratank",
+                "description": "Kontroll oljenivå extratank",
+                "isChecked": false
+            },
+            {
+                "title": "Byte tändstift",
+                "description": "Byte tändstift (spara bytade tändstift)",
+                "isChecked": false
+            },
+            {
+                "title": "Kontroll gasläckage",
+                "description": "Kontroll gasläckage",
+                "isChecked": false
+            },
+            {
+                "title": "Kontroll kablar startmotor",
+                "description": "Kontroll kablar startmotor",
+                "isChecked": false
+            },
+            {
+                "title": "Oljeavskiljare kompressor",
+                "description": "Oljeavskiljare kompressor. rengöring och kontroll av funktion",
+                "isChecked": false
+            },
+            {
+                "title": "Kontroll insugningsledning",
+                "description": "Kontroll insugningsledning mellan luftfilter och motor",
+                "isChecked": false
+            },
+            {
+                "title": "kontroll luftfilter vid behov byte",
+                "description": "kontroll luftfilter vid behov byte",
+                "isChecked": false
+            },
+            {
+                "title": "Kontroll kylsystem nivå",
+                "description": "Kontroll kylsystem nivå, slangar och frostskydd ……gr.C",
+                "isChecked": false
+            },
+            {
+                "title": "Kontrollera oljenivån vid hydraulisk fläktdrivning",
+                "description": "Kontrollera oljenivån vid hydraulisk fläktdrivning",
+                "isChecked": false
+            },
+            {
+                "title": "Motortvätt samt spolning kylare och intercooler",
+                "description": "Motortvätt samt spolning kylare och intercooler",
+                "isChecked": false
+            },
+            {
+                "title": "Övrigt",
+                "description": "Klisterlapp \"nästa service\" fästes synligt vid förarplatsen",
+                "isChecked": false
+            }
+        ]
+    },
+    {
+        "title": "Tillägg Citaro Gas Euro 6, 2017",
+        "items": [
+            {
+                "title": "Tillägg övriga miltal och tidsberoende service",
+                "description": "Tillägg övriga miltal och tidsberoende service",
+                "isChecked": false
+            },
+            {
+                "title": "Byte lufttorkfilter (granulatpatron) (12000 mil/2 år)",
+                "description": "Byte lufttorkfilter (granulatpatron) (12000 mil/2 år)",
+                "isChecked": false
+            },
+            {
+                "title": "Olje- & filterbyte automatväxellåda ZF Ecolife (kod G42 & GA30)(18000 mil/3 år)",
+                "description": "Olje- & filterbyte automatväxellåda ZF Ecolife (kod G42 & GA30)(18000 mil/3 år)",
+                "isChecked": false
+            },
+            {
+                "title": "Oljebyte på bakaxel (18000 mil/3 år)",
+                "description": "Oljebyte på bakaxel (18000 mil/3 år)",
+                "isChecked": false
+            },
+            {
+                "title": "Byte gasfiltrets filterinsats (18000 mil)",
+                "description": "Byte gasfiltrets filterinsats (18000 mil)",
+                "isChecked": false
+            },
+            {
+                "title": "Byte av kylvätska (3 år)",
+                "description": "Byte av kylvätska (3 år)",
+                "isChecked": false
+            },
+            {
+                "title": "Motor: Byte av luftfiltrets filterinstats (3 år)",
+                "description": "Motor: Byte av luftfiltrets filterinstats (3 år)",
+                "isChecked": false
+            },
+            {
+                "title": "Brandsläckningssystem motorrum: Byte av komponenter (4 år)",
+                "description": "Brandsläckningssystem motorrum: Byte av komponenter (4 år)",
+                "isChecked": false
+            },
+            {
+                "title": "Hydrostatisk fläktdrivning: Olje- och filterbyte (5 år)",
+                "description": "Hydrostatisk fläktdrivning: Olje- och filterbyte (5 år)",
+                "isChecked": false
+            },
+            {
+                "title": "Utför inspektion av styrväxel Servocom 8098 (30000 mil)",
+                "description": "Utför inspektion av styrväxel Servocom 8098 (30000 mil)",
+                "isChecked": false
+            },
+            {
+                "title": "Byte av fett i bakaxelns hjulnav (48000 mil/6 år)",
+                "description": "Byte av fett i bakaxelns hjulnav (48000 mil/6 år)",
+                "isChecked": false
+            }
+        ]
+    }
+]
