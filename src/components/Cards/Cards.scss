@@ -5,6 +5,12 @@
   flex-direction: column; /* Placera korten under varandra */
 }
 
+.drop-menu {
+  font-size: 2rem;
+  background-color: $--mainColor;
+  color: $--textColor;
+}
+
 .card {
   border: 1px solid $--mainColor;
   border-radius: 10px;
