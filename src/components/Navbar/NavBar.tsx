@@ -25,7 +25,7 @@ function Navbar({ GoToNavLink }: Props) {
   return (
     <section className="NavBar">
       <header>
-        <h3><GrWorkshop /></h3>
+        <h3 className="logo"><GrWorkshop /></h3>
         <nav ref={navRef}>
             {GoToNavLink.map((NavLink, index) =>(
                 <a key={index} href={NavLink.href}>{NavLink.Text}</a>
