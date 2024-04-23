@@ -1,61 +1,54 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './Cards.scss';
 import { BsWrenchAdjustableCircle } from 'react-icons/bs';
 
+interface CardData {
+    title: string;
+    description: string;
+    isChecked: boolean;
+}
+
 function Card() {
-    // Skapa separata tillstånd för varje kort
-    const [isChecked1, setIsChecked1] = useState(false);
-    const [isChecked2, setIsChecked2] = useState(false);
+    const [cardsData, setCardsData] = useState<CardData[]>([]);
 
-    // Hantera klickhändelsen för första kortets kryssruta
-    const handleCheckboxChange1 = () => {
-        setIsChecked1(!isChecked1);
+    useEffect(() => {
+        // Läs in data från JSON-filen (antag att du har din JSON-data i en fil som heter data.json)
+        fetch('../src/components/Cards/WorkshopData.json')
+
+
+            .then(response => response.json())
+            .then((data: CardData[]) => setCardsData(data))
+            .catch(error => console.error('Error fetching data:', error));
+    }, []);
+
+    const handleCheckboxChange = (index: number) => {
+        const updatedCardsData = [...cardsData];
+        updatedCardsData[index].isChecked = !updatedCardsData[index].isChecked;
+        setCardsData(updatedCardsData);
     };
 
-    // Hantera klickhändelsen för andra kortets kryssruta
-    const handleCheckboxChange2 = () => {
-        setIsChecked2(!isChecked2);
-    };
-
-    // Funktion för att hantera klickhändelsen för klickområdet runt kryssrutan
-    const handleCardClick = (cardNumber: number) => {
-        if (cardNumber === 1) {
-            setIsChecked1(!isChecked1);
-        } else if (cardNumber === 2) {
-            setIsChecked2(!isChecked2);
-        }
+    const handleCardClick = (index: number) => {
+        handleCheckboxChange(index);
     };
 
     return (
         <div className="card-container">
-            <section className={`card ${isChecked1 ? 'checked' : ''}`} onClick={() => handleCardClick(1)}>
-                <div className="card-content">
-                    <BsWrenchAdjustableCircle className="cardicon" />
-                    <div className="text-content">
-                        <h2 className="card-title">Service</h2>
-                        <p className="card-text">Visuel kontroll på lekage</p>
-                        <input
-                            type="checkbox"
-                            checked={isChecked1}
-                            onChange={handleCheckboxChange1}
-                        />
+            {cardsData.map((card, index) => (
+                <section key={index} className={`card ${card.isChecked ? 'checked' : ''}`} onClick={() => handleCardClick(index)}>
+                    <div className="card-content">
+                        <BsWrenchAdjustableCircle className="cardicon" />
+                        <div className="text-content">
+                            <h2 className="card-title">{card.title}</h2>
+                            <p className="card-text">{card.description}</p>
+                            <input
+                                type="checkbox"
+                                checked={card.isChecked}
+                                onChange={() => handleCheckboxChange(index)}
+                            />
+                        </div>
                     </div>
-                </div>
-            </section>
-            <section className={`card ${isChecked2 ? 'checked' : ''}`} onClick={() => handleCardClick(2)}>
-                <div className="card-content">
-                    <BsWrenchAdjustableCircle className="cardicon" />
-                    <div className="text-content">
-                        <h2 className="card-title">Service</h2>
-                        <p className="card-text">Bytt Olja</p>
-                        <input
-                            type="checkbox"
-                            checked={isChecked2}
-                            onChange={handleCheckboxChange2}
-                        />
-                    </div>
-                </div>
-            </section>
+                </section>
+            ))}
         </div>
     );
 }
