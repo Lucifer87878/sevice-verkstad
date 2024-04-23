@@ -1,9 +1,7 @@
-import { useState } from 'react';
 import "../src/components/Scss/main.scss";
 import Navbar from "./components/Navbar/NavBar";
 import Card from "./components/Cards/Card";
-import DropDownMenu from "./components/DropdownMenu/DropdownMenu"; // Importera DropDownMenu-komponenten
-import * as jsonData from './components/ServiceData'; // Importera index.ts där JSON-filerna exporteras
+
 
 //-------------------------------------------NavBar-----------------------------------------------//
 const GoToNavLink = [
