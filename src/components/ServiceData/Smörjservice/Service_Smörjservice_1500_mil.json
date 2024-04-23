@@ -1,0 +1,67 @@
+[
+  {
+  "title": "Checklista 1500 MIL BUSS",
+  "items": [
+    {
+      "title": "Bromsar, Däck, Hjul",
+      "description": "",
+      "isChecked": false
+    },
+    {
+      "title": "Bromsar kontroll skick inkl utskrift från Diagnos",
+      "description": "",
+      "isChecked": false
+    },
+    {
+      "title": "Kontroll däck Visuellt enligt däckpolicy",
+      "description": "",
+      "isChecked": false
+    },
+    {
+      "title": "Smörjning framvagn. Smörjning med avlastad axel",
+      "description": "",
+      "isChecked": false
+    },
+    {
+      "title": "Kontrollera om efterdragning hjul behövs på tavla / fordonskontroll",
+      "description": "",
+      "isChecked": false
+    },
+    {
+      "title": "Belysning",
+      "description": "",
+      "isChecked": false
+    },
+    {
+      "title": "Kontroll utvändig belysning / invändig belysning",
+      "description": "",
+      "isChecked": false
+    },
+    {
+      "title": "Batteri",
+      "description": "",
+      "isChecked": false
+    },
+    {
+      "title": "Rengöring poler, kontroll och påfyllning batterivatten vid behov",
+      "description": "",
+      "isChecked": false
+    },
+    {
+      "title": "Övrigt",
+      "description": "",
+      "isChecked": false
+    },
+    {
+      "title": "Kontroll plombering alkolåsknapp på instrumentpanel",
+      "description": "",
+      "isChecked": false
+    },
+    {
+      "title": "Kontroll felrapporter",
+      "description": "",
+      "isChecked": false
+    }
+  ]
+}
+  ]

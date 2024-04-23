@@ -120,103 +120,97 @@
       {
         "title": "Hjulaxlar, dämpare, styrning",
         "description": "Hjulaxlar, dämpare, styrning",
-        "isChecked": false,
-        "items": [
-          {
-            "title": "Kontroll stötdämpare, krängningsh. nivåventiler,luftbälgar inkl. bälghöjd ",
-            "description": "Kontroll stötdämpare, krängningsh. nivåventiler,luftbälgar inkl. bälghöjd ",
-            "isChecked": false
-          },
-          {
-            "title": "Kontroll styrstag, parallellstag, mellanarmar och kardanknutar till styrningen",
-            "description": "Kontroll styrstag, parallellstag, mellanarmar och kardanknutar till styrningen",
-            "isChecked": false
-          },
-          {
-            "title": "Smörjning framaxel samt ev. boggieaxel (avlastade axlar)",
-            "description": "Smörjning framaxel samt ev. boggieaxel (avlastade axlar)",
-            "isChecked": false
-          },
-          {
-            "title": "Till 18000 mil: Byte olja bakaxel Kontroll bakaxel avseende oljeläckage och kondition Smörjning kardan samt ev. kopplingspedal Kontrollera hjullager (avlastat, rullande hjul) Kontroll oljenivå styrning",
-            "description": "Till 18000 mil: Byte olja bakaxel Kontroll bakaxel avseende oljeläckage och kondition Smörjning kardan samt ev. kopplingspedal Kontrollera hjullager (avlastat, rullande hjul) Kontroll oljenivå styrning",
-            "isChecked": false
-          }
-        ]
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll stötdämpare, krängningsh. nivåventiler,luftbälgar inkl. bälghöjd ",
+        "description": "Kontroll stötdämpare, krängningsh. nivåventiler,luftbälgar inkl. bälghöjd ",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll styrstag, parallellstag, mellanarmar och kardanknutar till styrningen",
+        "description": "Kontroll styrstag, parallellstag, mellanarmar och kardanknutar till styrningen",
+        "isChecked": false
+      },
+      {
+        "title": "Smörjning framaxel samt ev. boggieaxel (avlastade axlar)",
+        "description": "Smörjning framaxel samt ev. boggieaxel (avlastade axlar)",
+        "isChecked": false
+      },
+      {
+        "title": "Till 18000 mil: Byte olja bakaxel Kontroll bakaxel avseende oljeläckage och kondition Smörjning kardan samt ev. kopplingspedal Kontrollera hjullager (avlastat, rullande hjul) Kontroll oljenivå styrning",
+        "description": "Till 18000 mil: Byte olja bakaxel Kontroll bakaxel avseende oljeläckage och kondition Smörjning kardan samt ev. kopplingspedal Kontrollera hjullager (avlastat, rullande hjul) Kontroll oljenivå styrning",
+        "isChecked": false
       },
       {
         "title": "Motor, Växellåda",
         "description": "Motor, Växellåda",
-        "isChecked": false,
-        "items": [
-          {
-            "title": "Kontroll oljeläckage motor och drivlina samt avluftning bakaxel ",
-            "description": "Kontroll oljeläckage motor och drivlina samt avluftning bakaxel ",
-            "isChecked": false
-          },
-          {
-            "title": "Kontr. ventilspel, ev. just.1:a gång efter 12000 mil, därefter varje 24000 mil",
-            "description": "Kontr. ventilspel, ev. just.1:a gång efter 12000 mil, därefter varje 24000 mil",
-            "isChecked": false
-          },
-          {
-            "title": "Kontroll remmar, remspännare och remhjul",
-            "description": "Kontroll remmar, remspännare och remhjul",
-            "isChecked": false
-          },
-          {
-            "title": "Kontroll läckage kylsystem, slangar och rör",
-            "description": "Kontroll läckage kylsystem, slangar och rör",
-            "isChecked": false
-          },
-          {
-            "title": "Kontroll kylsystem nivå, slangar och frostskydd ……gr.C",
-            "description": "Kontroll kylsystem nivå, slangar och frostskydd ……gr.C",
-            "isChecked": false
-          },
-          {
-            "title": "Till 18 000 mil: Byte olja vinkelväxel Kylfläkt Kontrollera oljenivån vid hydraulisk fläktdrivning Byte olja och filter motor Kontroll oljenivå extratank Byte olja och filter automatisk växellåda Vid varje 12000 mil Rengöring och kontroll av funktion på oljeavskiljare kompressor Byte bränslefilter Till 18000 mil: Byte adbluefilter",
-            "description": "Till 18 000 mil: Byte olja vinkelväxel Kylfläkt Kontrollera oljenivån vid hydraulisk fläktdrivning Byte olja och filter motor Kontroll oljenivå extratank Byte olja och filter automatisk växellåda Vid varje 12000 mil Rengöring och kontroll av funktion på oljeavskiljare kompressor Byte bränslefilter Till 18000 mil: Byte adbluefilter",
-            "isChecked": false
-          },
-          {
-            "title": "Kontroll insugningsledning mellan luftfilter och motor",
-            "description": "Kontroll insugningsledning mellan luftfilter och motor",
-            "isChecked": false
-          },
-          {
-            "title": "kontroll luftfilter vid behov byte",
-            "description": "kontroll luftfilter vid behov byte",
-            "isChecked": false
-          },
-          {
-            "title": "Kontroll kablar startmotor",
-            "description": "Kontroll kablar startmotor",
-            "isChecked": false
-          },
-          {
-            "title": "Motortvätt samt spolning kylare och intercooler",
-            "description": "Motortvätt samt spolning kylare och intercooler",
-            "isChecked": false
-          }
-        ]
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll oljeläckage motor och drivlina samt avluftning bakaxel ",
+        "description": "Kontroll oljeläckage motor och drivlina samt avluftning bakaxel ",
+        "isChecked": false
+      },
+      {
+        "title": "Kontr. ventilspel, ev. just.1:a gång efter 12000 mil, därefter varje 24000 mil",
+        "description": "Kontr. ventilspel, ev. just.1:a gång efter 12000 mil, därefter varje 24000 mil",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll remmar, remspännare och remhjul",
+        "description": "Kontroll remmar, remspännare och remhjul",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll läckage kylsystem, slangar och rör",
+        "description": "Kontroll läckage kylsystem, slangar och rör",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll kylsystem nivå, slangar och frostskydd ……gr.C",
+        "description": "Kontroll kylsystem nivå, slangar och frostskydd ……gr.C",
+        "isChecked": false
+      },
+      {
+        "title": "Till 18 000 mil: Byte olja vinkelväxel Kylfläkt Kontrollera oljenivån vid hydraulisk fläktdrivning Byte olja och filter motor Kontroll oljenivå extratank Byte olja och filter automatisk växellåda Vid varje 12000 mil Rengöring och kontroll av funktion på oljeavskiljare kompressor Byte bränslefilter Till 18000 mil: Byte adbluefilter",
+        "description": "Till 18 000 mil: Byte olja vinkelväxel Kylfläkt Kontrollera oljenivån vid hydraulisk fläktdrivning Byte olja och filter motor Kontroll oljenivå extratank Byte olja och filter automatisk växellåda Vid varje 12000 mil Rengöring och kontroll av funktion på oljeavskiljare kompressor Byte bränslefilter Till 18000 mil: Byte adbluefilter",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll insugningsledning mellan luftfilter och motor",
+        "description": "Kontroll insugningsledning mellan luftfilter och motor",
+        "isChecked": false
+      },
+      {
+        "title": "kontroll luftfilter vid behov byte",
+        "description": "kontroll luftfilter vid behov byte",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll kablar startmotor",
+        "description": "Kontroll kablar startmotor",
+        "isChecked": false
+      },
+      {
+        "title": "Motortvätt samt spolning kylare och intercooler",
+        "description": "Motortvätt samt spolning kylare och intercooler",
+        "isChecked": false
       },
       {
         "title": "Övrigt",
         "description": "Övrigt",
-        "isChecked": false,
-        "items": [
-          {
-            "title": "Radera felkoder",
-            "description": "Radera felkoder",
-            "isChecked": false
-          },
-          {
-            "title": "Klisterlapp \"nästa service\" fästes synligt vid förarplatsen",
-            "description": "Klisterlapp \"nästa service\" fästes synligt vid förarplatsen",
-            "isChecked": false
-          }
-        ]
+        "isChecked": false
+      },
+      {
+        "title": "Radera felkoder",
+        "description": "Radera felkoder",
+        "isChecked": false
+      },
+      {
+        "title": "Klisterlapp \"nästa service\" fästes synligt vid förarplatsen",
+        "description": "Klisterlapp \"nästa service\" fästes synligt vid förarplatsen",
+        "isChecked": false
       }
     ]
   }

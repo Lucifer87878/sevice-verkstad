@@ -47,4 +47,5 @@ export { default as Turist_Euro6_9000} from './TuristBussEuro6/Service_9000mil_E
 export { default as Turist_Euro6_18000} from './TuristBussEuro6/Service_18000mil_Euro6_turist.json';
 export { default as Turist_Euro6_27000} from './TuristBussEuro6/Service_27000mil_Euro6_turist.json';
 // -----------------------------------------------------------------------------------------------//
+export { default as Smörj_Service} from './Smörjservice/Service_Smörjservice_1500_mil.json';
 // -----------------------------------------------------------------------------------------------//

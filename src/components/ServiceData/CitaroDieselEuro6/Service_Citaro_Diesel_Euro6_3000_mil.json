@@ -8,109 +8,94 @@
         "isChecked": false
       },
       {
-        "title": "Bromsar, Däck, Hjul",
-        "items": [
-          {
-            "title": "Kontroll bromsar med dator. Vid gränsvärde över 55% kontr. visuellt",
-            "description": "Kontroll bromsar med dator. Vid gränsvärde över 55% kontr. visuellt",
-            "isChecked": false
-          },
-          {
-            "title": "Kontroll däck Visuellt",
-            "description": "Kontroll däck Visuellt",
-            "isChecked": false
-          }
-        ]
+        "title": "Kontroll bromsar med dator. Vid gränsvärde över 55% kontr. visuellt",
+        "description": "Kontroll bromsar med dator. Vid gränsvärde över 55% kontr. visuellt",
+        "isChecked": false
       },
       {
-        "title": "Kontroll allmänna system",
-        "items": [
-          {
-            "title": "Provkörning Webasto",
-            "description": "Provkörning Webasto",
-            "isChecked": false
-          },
-          {
-            "title": "Kontroll Torkfilter AC Årskontroll utförd den……..",
-            "description": "Kontroll Torkfilter AC Årskontroll utförd den……..",
-            "isChecked": false
-          },
-          {
-            "title": "Kontroll dörrsystemets skyddsanordning",
-            "description": "Kontroll dörrsystemets skyddsanordning",
-            "isChecked": false
-          },
-          {
-            "title": "Smörjning förarstol",
-            "description": "Smörjning förarstol",
-            "isChecked": false
-          },
-          {
-            "title": "Smörjning och infettning av lås på utvändiga luckor",
-            "description": "Smörjning och infettning av lås på utvändiga luckor",
-            "isChecked": false
-          },
-          {
-            "title": "Kontroll handikappramp Rengöring uppsmörjning",
-            "description": "Kontroll handikappramp Rengöring uppsmörjning",
-            "isChecked": false
-          },
-          {
-            "title": "Kontroll belysning",
-            "description": "Kontroll belysning",
-            "isChecked": false
-          },
-          {
-            "title": "Kontroll, rengöring batterier och justering vätskenivå",
-            "description": "Kontroll, rengöring batterier och justering vätskenivå",
-            "isChecked": false
-          },
-          {
-            "title": "Avtappning kondensvatten lufttankar",
-            "description": "Avtappning kondensvatten lufttankar",
-            "isChecked": false
-          }
-        ]
+        "title": "Kontroll däck Visuellt",
+        "description": "Kontroll däck Visuellt",
+        "isChecked": false
       },
       {
-        "title": "Motor Drivlina Styrning",
-        "items": [
-          {
-            "title": "Kontroll remmar och remspännare",
-            "description": "Kontroll remmar och remspännare",
-            "isChecked": false
-          },
-          {
-            "title": "Kontroll läckage, kylsystem och slangar och rör",
-            "description": "Kontroll läckage, kylsystem och slangar och rör",
-            "isChecked": false
-          },
-          {
-            "title": "Kontroll motor och drivlina avseende täthet. Visuellt",
-            "description": "Kontroll motor och drivlina avseende täthet. Visuellt",
-            "isChecked": false
-          },
-          {
-            "title": "Kontroll kablar startmotor",
-            "description": "Kontroll kablar startmotor",
-            "isChecked": false
-          },
-          {
-            "title": "Kontroll oljenivå till servostyrning",
-            "description": "Kontroll oljenivå till servostyrning",
-            "isChecked": false
-          },
-          {
-            "title": "Smörjning framvagn, tredje axel och kardan. Smörjning med avlastad axel",
-            "description": "Smörjning framvagn, tredje axel och kardan. Smörjning med avlastad axel",
-            "isChecked": false
-          },
-          {
-            "title": "Motortvätt samt spolning kylare och intercooler",
-            "description": "Motortvätt samt spolning kylare och intercooler",
-            "isChecked": false
-          }
-        ]
+        "title": "Provkörning Webasto",
+        "description": "Provkörning Webasto",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll Torkfilter AC Årskontroll utförd den……..",
+        "description": "Kontroll Torkfilter AC Årskontroll utförd den……..",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll dörrsystemets skyddsanordning",
+        "description": "Kontroll dörrsystemets skyddsanordning",
+        "isChecked": false
+      },
+      {
+        "title": "Smörjning förarstol",
+        "description": "Smörjning förarstol",
+        "isChecked": false
+      },
+      {
+        "title": "Smörjning och infettning av lås på utvändiga luckor",
+        "description": "Smörjning och infettning av lås på utvändiga luckor",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll handikappramp Rengöring uppsmörjning",
+        "description": "Kontroll handikappramp Rengöring uppsmörjning",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll belysning",
+        "description": "Kontroll belysning",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll, rengöring batterier och justering vätskenivå",
+        "description": "Kontroll, rengöring batterier och justering vätskenivå",
+        "isChecked": false
+      },
+      {
+        "title": "Avtappning kondensvatten lufttankar",
+        "description": "Avtappning kondensvatten lufttankar",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll remmar och remspännare",
+        "description": "Kontroll remmar och remspännare",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll läckage, kylsystem och slangar och rör",
+        "description": "Kontroll läckage, kylsystem och slangar och rör",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll motor och drivlina avseende täthet. Visuellt",
+        "description": "Kontroll motor och drivlina avseende täthet. Visuellt",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll kablar startmotor",
+        "description": "Kontroll kablar startmotor",
+        "isChecked": false
+      },
+      {
+        "title": "Kontroll oljenivå till servostyrning",
+        "description": "Kontroll oljenivå till servostyrning",
+        "isChecked": false
+      },
+      {
+        "title": "Smörjning framvagn, tredje axel och kardan. Smörjning med avlastad axel",
+        "description": "Smörjning framvagn, tredje axel och kardan. Smörjning med avlastad axel",
+        "isChecked": false
+      },
+      {
+        "title": "Motortvätt samt spolning kylare och intercooler",
+        "description": "Motortvätt samt spolning kylare och intercooler",
+        "isChecked": false
       },
       {
         "title": "Övrigt",

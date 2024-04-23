@@ -1,132 +1,132 @@
 [
   {
-      "title": "Checklista",
-      "items": [
+    "title": "Checklista",
+    "items": [
+      {
+        "title": "Kontroll felkoder",
+        "description": "Kontroll felkoder",
+        "isChecked": false
+      },
+      {
+        "title": "Bromsar, Däck, Hjul",
+        "items": [
           {
-              "title": "Kontroll felkoder",
-              "description": "Kontroll felkoder",
-              "isChecked": false
+            "title": "Kontroll bromsar med dator. Vid gränsvärde över 55% kontr. visuellt",
+            "description": "",
+            "isChecked": false
           },
           {
-              "title": "Bromsar, Däck, Hjul",
-              "items": [
-                  {
-                      "title": "Kontroll bromsar med dator. Vid gränsvärde över 55% kontr. visuellt",
-                      "description": "",
-                      "isChecked": false
-                  },
-                  {
-                      "title": "Kontroll däck Visuellt",
-                      "description": "",
-                      "isChecked": false
-                  }
-              ]
-          },
-          {
-              "title": "Kontroll allmänna system",
-              "items": [
-                  {
-                      "title": "Provkörning Webasto",
-                      "description": "",
-                      "isChecked": false
-                  },
-                  {
-                      "title": "Kontroll Torkfilter AC Årskontroll utförd den……..",
-                      "description": "",
-                      "isChecked": false
-                  },
-                  {
-                      "title": "Kontroll dörrsystemets skyddsanordning",
-                      "description": "",
-                      "isChecked": false
-                  },
-                  {
-                      "title": "Smörjning förarstol",
-                      "description": "",
-                      "isChecked": false
-                  },
-                  {
-                      "title": "Smörjning och infettning av lås på utvändiga luckor",
-                      "description": "",
-                      "isChecked": false
-                  },
-                  {
-                      "title": "Kontroll handikappramp Rengöring uppsmörjning",
-                      "description": "",
-                      "isChecked": false
-                  },
-                  {
-                      "title": "Kontroll belysning",
-                      "description": "",
-                      "isChecked": false
-                  },
-                  {
-                      "title": "Kontroll, rengöring batterier och justering vätskenivå",
-                      "description": "",
-                      "isChecked": false
-                  },
-                  {
-                      "title": "Avtappning kondensvatten lufttankar",
-                      "description": "",
-                      "isChecked": false
-                  }
-              ]
-          },
-          {
-              "title": "Motor Drivlina Styrning",
-              "items": [
-                  {
-                      "title": "Kontroll remmar och remspännare",
-                      "description": "",
-                      "isChecked": false
-                  },
-                  {
-                      "title": "Kontroll läckage, kylsystem och slangar och rör",
-                      "description": "",
-                      "isChecked": false
-                  },
-                  {
-                      "title": "Kontroll motor och drivlina avseende täthet. Visuellt",
-                      "description": "",
-                      "isChecked": false
-                  },
-                  {
-                      "title": "Kontroll kablar startmotor",
-                      "description": "",
-                      "isChecked": false
-                  },
-                  {
-                      "title": "Kontroll oljenivå till servostyrning",
-                      "description": "",
-                      "isChecked": false
-                  },
-                  {
-                      "title": "Smörjning framvagn, tredje axel och kardan. Smörjning med avlastad axel",
-                      "description": "",
-                      "isChecked": false
-                  },
-                  {
-                      "title": "Motortvätt samt spolning kylare och intercooler",
-                      "description": "",
-                      "isChecked": false
-                  }
-              ]
-          },
-          {
-              "title": "Övrigt",
-              "items": [
-                  {
-                      "title": "Radera felkoder",
-                      "description": "",
-                      "isChecked": false
-                  },
-                  {
-                      "title": "Klisterlapp \"nästa service\" fästes synligt vid förarplatsen",
-                      "description": "",
-                      "isChecked": false
-                  }
-              ]
+            "title": "Kontroll däck Visuellt",
+            "description": "",
+            "isChecked": false
           }
-      ]
+        ]
+      },
+      {
+        "title": "Kontroll allmänna system",
+        "items": [
+          {
+            "title": "Provkörning Webasto",
+            "description": "",
+            "isChecked": false
+          },
+          {
+            "title": "Kontroll Torkfilter AC Årskontroll utförd den……..",
+            "description": "",
+            "isChecked": false
+          },
+          {
+            "title": "Kontroll dörrsystemets skyddsanordning",
+            "description": "",
+            "isChecked": false
+          },
+          {
+            "title": "Smörjning förarstol",
+            "description": "",
+            "isChecked": false
+          },
+          {
+            "title": "Smörjning och infettning av lås på utvändiga luckor",
+            "description": "",
+            "isChecked": false
+          },
+          {
+            "title": "Kontroll handikappramp Rengöring uppsmörjning",
+            "description": "",
+            "isChecked": false
+          },
+          {
+            "title": "Kontroll belysning",
+            "description": "",
+            "isChecked": false
+          },
+          {
+            "title": "Kontroll, rengöring batterier och justering vätskenivå",
+            "description": "",
+            "isChecked": false
+          },
+          {
+            "title": "Avtappning kondensvatten lufttankar",
+            "description": "",
+            "isChecked": false
+          }
+        ]
+      },
+      {
+        "title": "Motor Drivlina Styrning",
+        "items": [
+          {
+            "title": "Kontroll remmar och remspännare",
+            "description": "",
+            "isChecked": false
+          },
+          {
+            "title": "Kontroll läckage, kylsystem och slangar och rör",
+            "description": "",
+            "isChecked": false
+          },
+          {
+            "title": "Kontroll motor och drivlina avseende täthet. Visuellt",
+            "description": "",
+            "isChecked": false
+          },
+          {
+            "title": "Kontroll kablar startmotor",
+            "description": "",
+            "isChecked": false
+          },
+          {
+            "title": "Kontroll oljenivå till servostyrning",
+            "description": "",
+            "isChecked": false
+          },
+          {
+            "title": "Smörjning framvagn, tredje axel och kardan. Smörjning med avlastad axel",
+            "description": "",
+            "isChecked": false
+          },
+          {
+            "title": "Motortvätt samt spolning kylare och intercooler",
+            "description": "",
+            "isChecked": false
+          }
+        ]
+      },
+      {
+        "title": "Övrigt",
+        "items": [
+          {
+            "title": "Radera felkoder",
+            "description": "",
+            "isChecked": false
+          },
+          {
+            "title": "Klisterlapp \"nästa service\" fästes synligt vid förarplatsen",
+            "description": "",
+            "isChecked": false
+          }
+        ]
+      }
+    ]
   }
 ]
