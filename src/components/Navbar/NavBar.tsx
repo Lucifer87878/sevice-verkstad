@@ -1,19 +1,20 @@
 import { useRef } from "react";
-import { FaBars, FaTimes, FaReact } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom"; // Importera Link från react-router-dom
 import "./NavBar.scss";
 import { GrWorkshop } from "react-icons/gr";
 
 interface NavLink {
   Text: string;
-  href: string;
+  Path: string;
 }
+
 interface Props {
   GoToNavLink: NavLink[];
 }
 
 function Navbar({ GoToNavLink }: Props) {
   const navRef = useRef<HTMLDivElement>(null);
-  
 
   const showNav = () => {
     if (navRef.current) {
@@ -21,15 +22,16 @@ function Navbar({ GoToNavLink }: Props) {
     }
   };
 
-  
   return (
     <section className="NavBar">
       <header>
         <h3 className="logo"><GrWorkshop /></h3>
         <nav ref={navRef}>
-            {GoToNavLink.map((NavLink, index) =>(
-                <a key={index} href={NavLink.href}>{NavLink.Text}</a>
-            ))}
+          {GoToNavLink.map((navLink, index) => (
+            <Link key={index} to={navLink.Path}> { /* Använd Link istället för a */ }
+              {navLink.Text}
+            </Link>
+          ))}
           <button className="nav-btn nav-close-btn" onClick={showNav}>
             <FaTimes />
           </button>
