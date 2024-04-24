@@ -11,7 +11,7 @@ const Home: React.FC = () => {
         <h1>Välkommna Till Jobet.!</h1>
         <h2>Börja dagen med en kopp kaffe...!</h2>
         <h3>Sen kan vi kolla vad skall göras</h3>
-        <p>Så här är strat sidan där vi kommer att kunna gåvidare i från</p>
+        <p>Här är strat sidan där vi kommer att kunna gåvidare till olika delar</p>
       </div>
     </div>
   );
