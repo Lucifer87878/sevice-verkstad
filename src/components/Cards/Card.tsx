@@ -14,7 +14,7 @@ type JsonKey = keyof typeof jsonData;
 
 const Card: React.FC = () => {
     const [cardsData, setCardsData] = useState<CardData[]>([]);
-    const [selectedFile, setSelectedFile] = useState<JsonKey>(''); // Uppdaterad initialvärde för att undvika odefinierade objekt
+    const [selectedFile, setSelectedFile] = useState<JsonKey>("fileName"); // Uppdaterad initialvärde för att undvika odefinierade objekt
     const [expandedTexts, setExpandedTexts] = useState<string[]>([]);
     const [openIndices, setOpenIndices] = useState<boolean[]>([]);
 

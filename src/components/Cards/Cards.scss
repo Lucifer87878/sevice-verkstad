@@ -17,7 +17,7 @@
   box-shadow: 5px 5px 5px $--secenderyColor;
   padding: 20px;
   margin: 10px;
-  max-width: 35rem;
+  max-width: 40rem;
 
   &-content {
     display: flex;
@@ -40,14 +40,14 @@
     font-family: "Oswald";
     margin: 0;
     color: $--textColor;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   &-text {
     font-family: "Oswald";
     color: $--textColor;
-    font-size: 0.7rem;
-    margin-top: 5px; /* Lägg till lite utrymme mellan titel och text */
+    font-size: 1rem;
+    margin-top: 2px; /* Lägg till lite utrymme mellan titel och text */
   }
 
   input[type="checkbox"] {
@@ -55,6 +55,11 @@
   }
 }
 
-.checked {
-  background-color: rgba(70, 231, 70, 0.689); /* Ändra bakgrundsfärgen när kryssrutan är markerad */
-}
+
+  .checked {
+    background-color: rgba(70, 231, 70, 0.689); /* Ändra bakgrundsfärgen när kryssrutan är markerad */
+    box-shadow: 0px 0px 5px rgb(0, 245, 0);
+      filter: blur(.2px);
+      
+    }
+    
