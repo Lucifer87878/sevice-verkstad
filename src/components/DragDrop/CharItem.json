@@ -1,13 +1,13 @@
 {
   "items": [
     {
-      "name": "Low Sword",
-      "description": "A common low-level sword with decent attack and defense.",
-      "type": "Weapon",
+      "name": "John Smith",
+      "description": "Mekanicker, AC, men inte El ",
+      "age": "Weapon",
       "rarity": "Common",
-      "stats": {
-        "attack": 10,
-        "defense": 5
+      "knowledge": {
+        "Good": 10,
+        "Bad": 5
       }
     },
     {
