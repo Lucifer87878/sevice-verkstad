@@ -32,7 +32,7 @@ function App() {
             <Route path="/planering" element={
               <>
               <Planering />
-              {/* <DragAndDrop /> */}
+              <DragAndDrop />
               </>
             } />
             <Route path="/service-protokol" element={

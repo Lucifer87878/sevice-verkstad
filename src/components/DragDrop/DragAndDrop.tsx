@@ -1,19 +1,18 @@
 import React, { useState } from "react";
 import './DragAndDrop.scss';
 import data from './CharItem.json';
-import JSConfetti from "js-confetti";
+import { v4 as uuidv4 } from 'uuid'; // Importera uuidv4
 
 type ItemType = {
     name: string;
     description: string;
     type: string;
     rarity: string;
-    stats: {
-        attack: number;
-        defense: number;
+    stats?: { // Gör stats-objektet valfritt
+        attack?: number;
+        defense?: number;
     }
 };
-
 
 export const DragAndDrop = () => {
     const [boxNames, setBoxNames] = useState({ box1: 'Box 1', box2: 'Box 2', box3: 'Box 3' });
@@ -26,12 +25,6 @@ export const DragAndDrop = () => {
     };
     const handleDrop = (e: React.DragEvent<HTMLDivElement>) => {
         e.preventDefault();
-        const jsConfetti = new JSConfetti();
-        jsConfetti.addConfetti({
-            emojis: ["🍆", "🥜"],
-            confettiNumber: 10,
-            emojiSize: 30,
-        });
         const data = e.dataTransfer.getData('text/plain');
         const draggedElement = document.getElementById(data);
         if (draggedElement) {
@@ -48,8 +41,8 @@ export const DragAndDrop = () => {
                 <div id='box1' onDragOver={handleDragOver} onDrop={handleDrop}>
                     <input type="text" value={boxNames.box1} onChange={(e) => handleNameChange(e, 'box1')} />
                     {(data.items as ItemType[]).map((item: ItemType, index: number) => (
-                        <li id={`item${index}`} draggable onDragStart={handleDragStart}
-                            title={`${item.description}, ${item.type}, ${item.rarity}, Attack: ${item.stats.attack}, Defense: ${item.stats.defense}`} className={item.rarity}>
+                        <li key={uuidv4()} id={`item${index}`} draggable onDragStart={handleDragStart}
+                            title={`${item.description}, ${item.type}, ${item.rarity}, Attack: ${item.stats?.attack}, Defense: ${item.stats?.defense}`} className={item.rarity}>
                             {item.name}
                         </li>
                     ))}
@@ -66,3 +59,4 @@ export const DragAndDrop = () => {
 }
 
 export default DragAndDrop;
+
